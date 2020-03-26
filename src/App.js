@@ -15,7 +15,7 @@ import PositiveNegativeChart from './functions/PositiveNegativeChart';
 import SimpleBarChart from './functions/SimpleBarChart';
 import ReactVirtualizedTable from './functions/VirtualTable';
 
-import Capture from './Capture3.PNG';
+import Capture from './Capture.PNG';
 
 const theme = createMuiTheme({
 
@@ -84,26 +84,24 @@ class App extends Component{
           <AppBar/>
           
           <div className={classes.appBarSpacer}/>
-            <Container className={classes.container} maxWidth="xl" >
+            <Container className={classes.container} maxWidth="lg" >
                 <Grid container direction='row' spacing={3} >
-                    
-                    <Grid item sm={4} xs={12} >
+                    <Grid item sm={6} xs={12} >
+                        <Paper className={classes.paper3} elevation={6} >
+                          <img src={Capture}/>
+                        </Paper>
+                    </Grid>
+                    <Grid item sm={6} xs={12} >
                     <Grid item sm={12} xs={12} >
                   <Paper className={classes.paper}  elevation={6}>
                     <SimpleBarChart/>
                   </Paper>
                 </Grid>
-                <br></br>
                 <Grid item sm={12} xs={12} >
                   <Paper className={classes.paper}  elevation={6}>
                     <ReactVirtualizedTable/>
                   </Paper>
                 </Grid>
-                </Grid>
-                <Grid item sm={8} xs={12} >
-                        <Paper className={classes.paper3} elevation={6} >
-                          <img src={Capture}/>
-                        </Paper>
                     </Grid>
               </Grid>
               <Grid container spacing={2}  alignItems="center" >
