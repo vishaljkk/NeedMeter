@@ -4,18 +4,18 @@ import {
 } from 'recharts';
 
 const data = [
-  {name:'Ahmednagar',dp:0.0},
-  {name:'Aurangabad',dp:0.0},
-  {name:'Mumbai City',dp:68.75},
-  {name:'Mumbai Suburban',dp:0.0},
-  {name:'Nagpur',dp:0.0},
-  {name:'Pune',dp:-18.75},
-  {name:'Raigad',dp:0.0},
-  {name:'Ratnagiri',dp:0.0},
-  {name:'Sangli',dp:25.0},
-  {name:'Satara',dp:6.25},
-  {name:'Thane',dp:0.0},
-  {name:'Yavatmal',dp:0.0},
+  {name:'Ahmednagar',fp:-2.48},
+  {name:'Aurangabad',fp:2.27},
+  {name:'Mumbai City',fp:12.91},
+  {name:'Mumbai Suburban',fp:0.76},
+  {name:'Nagpur',fp:3.75},
+  {name:'Pune',fp:9.63},
+  {name:'Raigad',fp:0.41},
+  {name:'Ratnagiri',fp:1.14},
+  {name:'Sangli',fp:24.51},
+  {name:'Satara',fp:-4.9},
+  {name:'Thane',fp:5.32},
+  {name:'Yavatmal',fp:1.58},
 ];
 
 export default class PositiveNegativeChart extends PureComponent {
@@ -37,7 +37,7 @@ export default class PositiveNegativeChart extends PureComponent {
         <Tooltip />
         <Legend />
         <ReferenceLine y={0} stroke="#000" />
-        <Bar dataKey="dp" fill="#fc5e03" />
+        <Bar dataKey="fp" fill="#fc5e03" />
       </BarChart>
       </ResponsiveContainer>
     );

@@ -5,18 +5,18 @@ import {
 } from 'recharts';
 
 const data = [
-    {name:'Ahmednagar',op:4.85},
-    {name:'Aurangabad',op:4.55},
-    {name:'Mumbai City',op:25.83},
-    {name:'Mumbai Suburban',op:1.52},
-    {name:'Nagpur',op:7.49},
-    {name:'Pune',op:48.68},
-    {name:'Raigad',op:0.83},
-    {name:'Ratnagiri',op:2.27},
-    {name:'Sangli',op:0.0},
-    {name:'Satara',op:0.0},
-    {name:'Thane',op:0.83},
-    {name:'Yavatmal',op:3.17},
+  {name:'Ahmednagar',op:4.85},
+  {name:'Aurangabad',op:4.55},
+  {name:'Mumbai City',op:25.83},
+  {name:'Mumbai Suburban',op:1.52},
+  {name:'Nagpur',op:7.49},
+  {name:'Pune',op:48.68},
+  {name:'Raigad',op:0.83},
+  {name:'Ratnagiri',op:2.27},
+  {name:'Sangli',op:0.0},
+  {name:'Satara',op:0.0},
+  {name:'Thane',op:0.83},
+  {name:'Yavatmal',op:3.17},
 ];
 
 export default class VerticalComposedChart extends PureComponent {
