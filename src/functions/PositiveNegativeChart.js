@@ -37,7 +37,7 @@ export default class PositiveNegativeChart extends PureComponent {
         <Tooltip />
         <Legend />
         <ReferenceLine y={0} stroke="#000" />
-        <Bar dataKey="Percent_Need_Overall" fill="#fc5e03" />
+        <Bar dataKey="Percent_Need_Overall" fill='#8884d8' />
       </BarChart>
       </ResponsiveContainer>
     );
