@@ -93,8 +93,8 @@ class App extends Component{
                         <h3>
                           <span style={{ color: '#8884d8' }}>The NEED Meter</span>
                         </h3>
-                        <p> 
-                          Distributing the resources based on the percentage need for a given area so as to minimize crises. Suppose you have 1000 entities of any medical entity then distributing it to different regoin based on the percent spread of crises could be the best solution.
+                        <p>                         
+                        Distributing the resources based on the percentage need for a given area so as to minimize crises. Suppose you have 1000 entities of any medical entity then distributing it to different regions based on the percent spread of crises could be the best solution.
                         </p>
                       </Typography>
                     </Paper>
@@ -118,14 +118,14 @@ class App extends Component{
                 <Grid item sm={12} xs={12} >
                     <Paper className={classes.paper3} elevation={6} >
                       <Typography color="secondary">
-                        <p>
-                          Logistics could be a great asset to the any Nation at the time of crisis. Data has proven to be the best combat to solve any problem. With proper data during any commuinty spread pandemic providing appropriate resources to the
-                          region at the right time could prove to be a great fighting strategy to combat any crisis.   
-                        </p>
-                        <p>
-                          This calulator has been made on the past data and and help medical logistics to visulize the data so that all the small and the big logistics personal can contribute by providing adequate resources to the needy region.
-                          The <span >Data Crisis And Logistics Calculator </span> Can maximize the amount of resources we have so that the entire resources pool can be utilized effectively  
-                        </p> 
+                      <p>
+                        Logistics could be a great asset to any Nation at the time of crisis. Data has proven to be the best combat to solve any problem. With proper data during any community spread pandemic providing appropriate resources to the region at the right time could prove to be a great fighting strategy to combat any crisis.
+                      </p>
+                      <p>                      
+                        This calculator has been made on the past data and might be helpful to the  medical logistics to visualize the data so that all the small and the big logistics personnel can contribute by providing adequate resources to the needy region. The <span >Data Crisis And Logistics Calculator </span>
+                        Calculator Can maximize the effective usage  amount of resources pool we have
+                      </p> 
+                    
                       </Typography>
                     </Paper>
                   </Grid>

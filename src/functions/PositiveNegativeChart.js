@@ -4,18 +4,18 @@ import {
 } from 'recharts';
 
 const data = [
-  {name:'Ahmednagar',fp:-2.48},
-  {name:'Aurangabad',fp:2.27},
-  {name:'Mumbai City',fp:12.91},
-  {name:'Mumbai Suburban',fp:0.76},
-  {name:'Nagpur',fp:3.75},
-  {name:'Pune',fp:9.63},
-  {name:'Raigad',fp:0.41},
-  {name:'Ratnagiri',fp:1.14},
-  {name:'Sangli',fp:24.51},
-  {name:'Satara',fp:-4.9},
-  {name:'Thane',fp:5.32},
-  {name:'Yavatmal',fp:1.58},
+  {name:'Ahmednagar',Percent_Need_Overall:-2.48},
+  {name:'Aurangabad',Percent_Need_Overall:2.27},
+  {name:'Mumbai City',Percent_Need_Overall:12.91},
+  {name:'Mumbai Suburban',Percent_Need_Overall:0.76},
+  {name:'Nagpur',Percent_Need_Overall:3.75},
+  {name:'Pune',Percent_Need_Overall:9.63},
+  {name:'Raigad',Percent_Need_Overall:0.41},
+  {name:'Ratnagiri',Percent_Need_Overall:1.14},
+  {name:'Sangli',Percent_Need_Overall:24.51},
+  {name:'Satara',Percent_Need_Overall:-4.9},
+  {name:'Thane',Percent_Need_Overall:5.32},
+  {name:'Yavatmal',Percent_Need_Overall:1.58},
 ];
 
 export default class PositiveNegativeChart extends PureComponent {
@@ -37,7 +37,7 @@ export default class PositiveNegativeChart extends PureComponent {
         <Tooltip />
         <Legend />
         <ReferenceLine y={0} stroke="#000" />
-        <Bar dataKey="fp" fill="#fc5e03" />
+        <Bar dataKey="Percent_Need_Overall" fill="#fc5e03" />
       </BarChart>
       </ResponsiveContainer>
     );

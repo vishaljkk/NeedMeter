@@ -4,18 +4,18 @@ import {
 } from 'recharts';
 
 const data = [
-  {name:'Ahmednagar',fp:-1.84},
-  {name:'Aurangabad',fp:0.02},
-  {name:'Mumbai City',fp:32.83},
-  {name:'Mumbai Suburban',fp:1.32},
-  {name:'Nagpur',fp:3.43},
-  {name:'Pune',fp:7.57},
-  {name:'Raigad',fp:0.4},
-  {name:'Ratnagiri',fp:0.0},
-  {name:'Sangli',fp:48.47},
-  {name:'Satara',fp:-0.05},
-  {name:'Thane',fp:5.69},
-  {name:'Yavatmal',fp:0.26},
+  {name:'Ahmednagar',Percent_Sudden_Need:-1.84},
+  {name:'Aurangabad',Percent_Sudden_Need:0.02},
+  {name:'Mumbai City',Percent_Sudden_Need:32.83},
+  {name:'Mumbai Suburban',Percent_Sudden_Need:1.32},
+  {name:'Nagpur',Percent_Sudden_Need:3.43},
+  {name:'Pune',Percent_Sudden_Need:7.57},
+  {name:'Raigad',Percent_Sudden_Need:0.4},
+  {name:'Ratnagiri',Percent_Sudden_Need:0.0},
+  {name:'Sangli',Percent_Sudden_Need:48.47},
+  {name:'Satara',Percent_Sudden_Need:-0.05},
+  {name:'Thane',Percent_Sudden_Need:5.69},
+  {name:'Yavatmal',Percent_Sudden_Need:0.26},
 ];
 
 export default class SimpleBarChart extends PureComponent {
@@ -32,12 +32,12 @@ export default class SimpleBarChart extends PureComponent {
         }}
       >
       <CartesianGrid strokeDasharray="3 3" stroke="#f5f5f5"/>
-        <XAxis dataKey="name" />
+        <XAxis dataKey="name"/>
         <YAxis />
         <Tooltip />
         <Legend />
         <ReferenceLine y={0} stroke="#000" />
-        <Bar dataKey="fp" fill='#8884d8' />
+        <Bar dataKey="Percent_Sudden_Need" fill='#8884d8' />
       </BarChart>
       </ResponsiveContainer>
     );
