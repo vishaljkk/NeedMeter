@@ -139,18 +139,18 @@ MuiVirtualizedTable.propTypes = {
 
 const VirtualizedTable = withStyles(styles)(MuiVirtualizedTable);
 const rows = [
-  {name:'Ahmednagar',fp:-3.13},
-  {name:'Aurangabad',fp:2.27},
-  {name:'Mumbai City',fp:12.91},
-  {name:'Mumbai Suburban',fp:0.76},
-  {name:'Nagpur',fp:3.75},
-  {name:'Pune',fp:7.67},
-  {name:'Raigad',fp:0.41},
-  {name:'Ratnagiri',fp:1.14},
-  {name:'Sangli',fp:27.78},
-  {name:'Satara',fp:-5.56},
-  {name:'Thane',fp:5.97},
-  {name:'Yavatmal',fp:1.58},
+  {name:'Ahmednagar',fp:-1.84},
+  {name:'Aurangabad',fp:0.02},
+  {name:'Mumbai City',fp:32.83},
+  {name:'Mumbai Suburban',fp:1.32},
+  {name:'Nagpur',fp:3.43},
+  {name:'Pune',fp:7.57},
+  {name:'Raigad',fp:0.4},
+  {name:'Ratnagiri',fp:0.0},
+  {name:'Sangli',fp:48.47},
+  {name:'Satara',fp:-0.05},
+  {name:'Thane',fp:5.69},
+  {name:'Yavatmal',fp:0.26},
 ];
 export default function ReactVirtualizedTable() {
   return (

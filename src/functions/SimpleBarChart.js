@@ -37,7 +37,7 @@ export default class SimpleBarChart extends PureComponent {
         <Tooltip />
         <Legend />
         <ReferenceLine y={0} stroke="#000" />
-        <Bar dataKey="fp" fill="#fc5e03" />
+        <Bar dataKey="fp" fill='#8884d8' />
       </BarChart>
       </ResponsiveContainer>
     );
