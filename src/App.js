@@ -7,9 +7,11 @@ import clsx from 'clsx';
 //import core components
 import {Typography, Grid ,Paper , Container } from '@material-ui/core'
 import { withStyles , MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles'
-import AppBar from './functions/AppBar'
+import Page from 'react-page-loading'
 
 //import custom components
+
+import AppBar from './functions/AppBar'
 import VerticalComposedChart from './functions/VerticalComposedChart';
 import PositiveNegativeChart from './functions/PositiveNegativeChart';
 import SimpleBarChart from './functions/SimpleBarChart';
@@ -75,6 +77,7 @@ class App extends Component{
   render(){
   const { classes} = this.props
   return (
+    <Page loader={"bar"} color={"#A9A9A9"} size={4}>
     <div className="App">
       <body>
         <div className={clsx('App',classes.root)}>
@@ -143,7 +146,8 @@ class App extends Component{
           </MuiThemeProvider>
         </div>
       </body>
-    </div>
+    </div>     
+    </Page>
   );
   }
 }
