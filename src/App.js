@@ -74,6 +74,7 @@ const styles = theme => (
 
 
 class App extends Component{
+  value="Value From Parent";
   render(){
   const { classes} = this.props
   return (
