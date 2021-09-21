@@ -1,6 +1,6 @@
-This repo contains code for the following react website :
+## NeedMeter
 
-https://datavscrisis.herokuapp.com/
+DEMO : https://datavscrisis.herokuapp.com/
 
 This Project desribes a basic about how data can solve the basic needs like masks and other stuff need to be distributed to make maximum outout from the resources avialable
 
